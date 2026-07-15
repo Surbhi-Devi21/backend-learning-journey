@@ -1,4 +1,4 @@
-# 🚀 02 - Express Routing and Response
+# 🚀Day 02 - Express Routing and Response
 
 ## 📌 Overview
 

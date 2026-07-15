@@ -1,4 +1,4 @@
-# 🚀 01 - Introduction and First Server
+# 🚀 Day 01 - Introduction and First Server
 
 ## 📌 Overview
 This project marks the beginning of my Backend Development journey using **Node.js** and **Express.js**. In this lesson, I learned how to set up a Node.js project, install Express, and create my very first server.

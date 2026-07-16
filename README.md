@@ -1,35 +1,48 @@
 # 🚀 Backend Learning Journey
 
-This repository contains my complete Backend Development learning journey using Node.js, Express.js, MongoDB, and related technologies.
+Welcome to my **Backend Learning Journey** repository! 👋
+
+This repository documents my day-by-day progress as I learn Backend Development from scratch using **Node.js**, **Express.js**, **MongoDB**, and related technologies.
+
+Each folder represents a separate learning milestone containing source code, practice projects, and notes.
 
 ---
 
-## 📚 Learning Roadmap
+## 📚 Learning Progress
 
-| Day | Topic | Status |
-|------|--------|--------|
-| 01 | Introduction & First Server | ✅ |
-| 02 | Express Routing & Request Handling | ✅ |
-| 03 | Middleware | ⏳ |
-| 04 | REST APIs | ⏳ |
-| 05 | MongoDB | ⏳ |
-| 06 | Mongoose | ⏳ |
-| 07 | Authentication | ⏳ |
-| 08 | JWT | ⏳ |
-| 09 | MVC Architecture | ⏳ |
+| Day | Topics Covered | Status |
+|------|----------------|:------:|
+| ✅ Day 01 | Backend Basics, Node.js, First Express Server | ✔️ |
+| ✅ Day 02 | Express Routing, Request & Response | ✔️ |
+| ✅ Day 03 | REST APIs, HTTP Methods, Postman | ✔️ |
+| ✅ Day 04 | CRUD Notes API, JSON Responses, Route Parameters | ✔️ |
+| ✅ Day 05 | HTTP Status Codes, MongoDB Atlas, MongoDB Compass | ✔️ |
+| ⏳ Day 06 | Connecting MongoDB with Express (Mongoose) | Coming Soon |
+| ⏳ Day 07 | CRUD with MongoDB | Coming Soon |
+| ⏳ Day 08 | Authentication & Authorization | Coming Soon |
+| ⏳ Day 09 | JWT Authentication | Coming Soon |
+| ⏳ Day 10 | MVC Architecture | Coming Soon |
 
 ---
 
 ## 📂 Repository Structure
 
-```
+```text
 backend-learning-journey
 │
-├── 01-introduction-and-first-server
-├── 02-express-routing-and-request
-├── 03-middleware
-├── ...
+├── Day-01
+├── Day-02
+├── Day-03
+├── Day-04
+├── Day-05
+└── ...
 ```
+
+Each folder contains:
+- 📖 README.md
+- 💻 Source Code
+- 📝 Learning Notes
+- 🧪 Practice Code
 
 ---
 
@@ -37,23 +50,50 @@ backend-learning-journey
 
 - Node.js
 - Express.js
-- MongoDB
+- MongoDB Atlas
+- MongoDB Compass
 - Mongoose
+- Postman
 - Git & GitHub
-- Render
+- Render *(Upcoming)*
 
 ---
 
-## 🚀 Deployment
+## 🎯 Goals
 
-Projects that are deployed will have their live links added inside their respective folders.
+- Learn Backend Development from scratch.
+- Build REST APIs using Express.js.
+- Work with MongoDB and Mongoose.
+- Understand Authentication & Authorization.
+- Build real-world backend projects.
+- Document my complete learning journey on GitHub.
+
+---
+
+## 📈 Current Progress
+
+- ✅ Node.js Basics
+- ✅ Express.js Fundamentals
+- ✅ REST APIs
+- ✅ CRUD Operations
+- ✅ JSON Responses
+- ✅ HTTP Status Codes
+- ✅ MongoDB Atlas
+- ✅ MongoDB Compass
+- ⏳ Mongoose
+- ⏳ Authentication
+- ⏳ Deployment
 
 ---
 
 ## 👩‍💻 About Me
 
-I'm currently learning Backend Development step by step while building projects and documenting everything publicly on GitHub.
+Hi, I'm **Surbhi** 👋
 
-My goal is to become a Full Stack Developer and secure a high-paying Software Engineer role.
+I'm documenting my complete Backend Development journey by building projects and sharing my progress publicly on GitHub.
 
-⭐ Feel free to explore my learning journey.
+My goal is to become a skilled **Full Stack Developer** by strengthening my backend fundamentals one step at a time.
+
+If you're also learning backend, feel free to explore this repository and follow along!
+
+⭐ If you find this repository helpful, feel free to star it.

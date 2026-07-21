@@ -5,7 +5,6 @@ const connectTodb = require('./src/config/database');
 
 const mongoose = require('mongoose');
 
-
 connectTodb();
 
 

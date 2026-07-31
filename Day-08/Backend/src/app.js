@@ -1,11 +1,14 @@
 const newModel = require('./models/notes.model.js')
 const core = require('cors');
 const express = require('express');
+const path = require('path');
+
 
 
 const app = express();
 app.use(core());
 app.use(express.json());
+app.use(express.static("./public"))
 
 
 /* POST/api/notes : create notes by user */
@@ -60,6 +63,10 @@ app.patch('/api/notes/:id' , async (req , res) => {
   })
 })
 
+console.log(__dirname);
 
+app.use('*name', (req , res) => { 
+ res.sendFile(path.join(__dirname , "..", "/public/index.html"))
+})
 
 module.exports = app;

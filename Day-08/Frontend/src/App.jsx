@@ -8,7 +8,7 @@ function App() {
  ])
 
 function getNotes() {
-  axios.get("http://localhost:3000/api/notes")
+  axios.get("https://first-integrated-frontend.onrender.com//api/notes")
   .then(res => {
     setNotes(res.data.notes)
   })
@@ -24,7 +24,7 @@ function formhandling(e) {
   const{title , description } = e.target.elements 
   console.log(title.value , description.value)
 
-  axios.post("http://localhost:3000/api/notes" , {
+  axios.post("https://first-integrated-frontend.onrender.com/api/notes" , {
     title : title.value ,
     description : description.value
   })
@@ -37,7 +37,7 @@ function formhandling(e) {
 }
 
  function handleDelete(notes_id) {
-  axios.delete("http://localhost:3000/api/notes/"+notes_id)
+  axios.delete("https://first-integrated-frontend.onrender.com/api/notes/"+notes_id)
   .then( res => {
     console.log(res.data)
 

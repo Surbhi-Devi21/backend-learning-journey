@@ -8,7 +8,7 @@ function App() {
  ])
 
 function getNotes() {
-  axios.get("https://first-integrated-frontend.onrender.com//api/notes")
+  axios.get("https://first-integrated-frontend.onrender.com/api/notes")
   .then(res => {
     setNotes(res.data.notes)
   })
